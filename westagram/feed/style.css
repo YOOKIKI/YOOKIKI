@@ -158,7 +158,11 @@ input {
 }
 
 .comentTextStyle {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   font-size: small;
+  margin-top: 3px;
 }
 
 .feedBottom {
@@ -179,14 +183,17 @@ input {
   margin-bottom: 5px;
 }
 
-img {
+img,
+button,
+.logo {
   cursor: pointer;
 }
 
-a {
+.idStyle {
   text-align: center;
   font-size: medium;
   font-weight: bold;
+  margin-right: 5px;
   /* font-family: Arial, Helvetica, sans-serif; */
   /* display: flex; */
   /* padding-top: 15px; */
@@ -250,7 +257,6 @@ button {
   text-align: center;
   color: rgb(47, 148, 243);
   font-weight: bold;
-  cursor: pointer;
 }
 
 /* .loginButton {
