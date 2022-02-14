@@ -17,18 +17,21 @@
 //   }
 // })
 
-const commentInput = document.querySelector("#commentInput");
-const commentBtn = document.querySelector(".commentBtn");
-const commentViewBox = document.querySelector(".commentViewBox");
-
 // const commentInput = document.getElementById("commentInput");
 // const commentBtn = document.getElementById("commentBtn");
 // const commentViewBox = document.getElementById("commentViewBox");
 
+
+const commentBtn = document.querySelector("#commentBtn");
+const commentInput = document.querySelector("#commentInput");
+const commentViewBox = document.querySelector(".commentViewBox");
+
+console.log(commentBtn)
 commentInput.addEventListener("keydown", addComment);
 commentBtn.addEventListener("click", addComment);
 
 function addComment(e) {
+  console.log("click");
   if ((e.keycode === 13) || (e.target === commentBtn)) {
     let username = "yookiki";
     const value = commentInput.value;
@@ -46,9 +49,3 @@ function addComment(e) {
     commentInput.value = " ";
   }
 }
-
-// function commentClickEvent() {
-//   if (txtComment.value) {
-
-//   }
-// }
