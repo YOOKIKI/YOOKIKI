@@ -99,14 +99,12 @@ input {
 
 .feedsMain {
   width: 614px;
-  /* width: 100%; */
   margin-top: 15px;
   border: 1px solid rgb(206, 206, 206);
   border-radius: 2px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-items: center; */
 }
 
 .feedIdText {
@@ -132,23 +130,19 @@ input {
   margin-bottom: 10px;
 }
 
-/* .feedImg {
-  padding-left: 0px;
-} */
-
 .feedIcon {
   width: 21px;
   height: 21px;
 }
 
-/* .coment {
+/* .comment {
   position: relative;
   width: 100%;
   border-top: 1px solid rgb(233, 233, 233);
   margin: -1px;
 } */
 
-.coment {
+.comment {
   position: flex;
   justify-content: space-between;
   width: 100%;
@@ -157,7 +151,7 @@ input {
   margin: -1px;
 }
 
-.comentTextStyle {
+.commentTextStyle {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -192,13 +186,17 @@ button,
 .idStyle {
   text-align: center;
   font-size: medium;
-  font-weight: bold;
+  font-weight: 500;
   margin-right: 5px;
   /* font-family: Arial, Helvetica, sans-serif; */
   /* display: flex; */
   /* padding-top: 15px; */
   /* justify-content: center; */
   /* color: #154677; */
+}
+
+a {
+  font-size: 12px;
 }
 
 p {
@@ -259,47 +257,31 @@ button {
   font-weight: bold;
 }
 
-/* .loginButton {
-  padding: 5px 6px;
-  margin-top: 12px;
-  background-color: #e2f0fd;
-  opacity: 98%;
-  border: none;
-  border-radius: 3px;
-  text-align: center;
-  color: white;
-  font-weight: bold;
-  width: 100%;
-} */
+li {
+  list-style: none;
+  margin: 0px;
+  margin-left: 3px;
+  padding: 0px;
+  font-size: 12px;
+}
 
-/* main {
-  border: 1px solid rgb(189, 189, 189);
-  border-radius: 3px;
-} */
+.commentViewBox {
+  height: 130px;
+}
 
-/* .loginBorder {
-  background-color: white;
-  height: 400px;
-  width: 350px;
-
-  margin-bottom: 10px;
-  padding: 1rem;
-  max-width: 500px;
+.commentFlex {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-} */
+}
 
-/* input,
-.login,
-.loginButton,
-.isloginButton {
-  margin-left: 4px;
-  margin-right: 4px;
-} */
+.commentStyle {
+  font-family: "Open Sans";
+  font-size: 12px;
+  /* margin: "5px 0px 5px 10px"; */
+  width: 300px;
+}
 
-/* .login {
-  padding: 10px;
-  width: 250px;
-} */
+.commentUser {
+  font-weight: bold;
+  margin-right: 1px;
+}
