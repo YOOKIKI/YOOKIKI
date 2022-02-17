@@ -1,19 +1,3 @@
-/* * {
-  box-sizing: border-box;
-} */
-
-/* html {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-} */
-
-/* body {
-  display: flex;
-  justify-content: center;
-} */
-
 .logo,
 .pwForgot,
 .loginButton {
@@ -27,6 +11,7 @@
   height: 368px;
   margin: 0 auto;
   border: 1px solid #dbdbdb;
+  border-radius: 2px;
   text-align: center;
   background-color: white;
 }
@@ -34,44 +19,61 @@
 .logo {
   text-align: center;
   font-family: "Lobster", cursive;
-  font-size: 40px;
+  font-size: 38px;
   font-weight: lighter;
+}
+
+input {
+  width: 80%;
+  // margin-top: 15px;
+  margin-left: 10px;
+  padding: 7px 8px;
+  border: none;
+  outline: none;
+  text-align: start;
+  background-color: rgba(255, 255, 255, 0);
+  & :hover {
+    border: none;
+    outline: none;
+    cursor: text;
+  }
 }
 
 #idInput,
 #pwInput {
   width: 268px;
-  height: 38px;
+  height: 24px;
   border: 1px solid;
   margin-bottom: 6px;
   padding-top: 8px;
   padding-bottom: 7px;
   padding-left: 10px;
+  // padding-right: 10px;
+  // border-left: 10px;
   border: 1px solid #dbdbdb;
   border-radius: 3px;
   background-color: rgba(236, 236, 236, 0.562);
+  & #idInput:focus,
+  #pwInput:focus {
+    outline: none;
+  }
+  &#idInput:hover,
+  #pwInput:hover {
+    background-color: white;
+    border: 1px solid gray;
+  }
 }
 
-#idInput:focus,
-#pwInput:focus {
-  outline: none;
-}
-
-#idInput:hover,
-#pwInput:hover {
-  background-color: white;
-  border: 1px solid gray;
-}
 /* 
 ::placeholder {
   font-size: 10pt;
 } */
 
 .loginButton {
-  width: 268px;
+  width: 287px;
   height: 38px;
   position: absolute;
-  left: 40px;
+  left: 35px;
   padding-top: 10px;
   padding-bottom: 7px;
   padding-left: 8px;

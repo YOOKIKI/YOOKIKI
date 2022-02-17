@@ -18,8 +18,8 @@
 .inputBox {
   margin-top: 5px;
   height: 30px;
-  display: flex;
-  flex-direction: column;
+  // display: flex;
+  // flex-direction: column;
   justify-content: flex-end;
   align-items: center;
   border: none;
@@ -27,6 +27,13 @@
   color: gray;
   align-items: center;
   background-color: rgb(231, 231, 231);
+}
+
+.searchInput {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 10px;
 }
 
 .navOutline {

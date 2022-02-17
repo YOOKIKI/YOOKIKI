@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "./Nav/Nav"
 import "./Main.scss";
-// import "../../../public/images";
+
 
 const Main = () => {
 
