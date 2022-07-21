@@ -1,5 +1,5 @@
 
-## Hello! YOOKIKI 💎
+## YOOKIKI! (Noh YooJung) 💎
 
 #### 이제 막 뛰기 시작한 프론트엔드 개발자입니다.
 
